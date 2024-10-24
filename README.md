@@ -111,6 +111,7 @@ The impact of moving the gate is not statistically significant for 1-day, other 
 #### Player Activity (sum_gamerounds):
 Efforts should focus on increasing player activity, as it significantly improves the likelihood of players returning the next day ang week.
 ### Recommendations:
+---
 Since the impact of moving the gate is not statistically significant, other strategies should be explored to enhance short-term retention. Focus on increasing player involvement with other features like daily award or game challenges can give more profits than gate changing.
 
 
