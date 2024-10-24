@@ -89,4 +89,45 @@ print(lin_result.summary())
 ```
 
 ## Analyzing of results
+### Overall Model Performance (1-day 7-day):
+#### R-squared (R²): 0.039 and 0.078
+The model explains only 3.9% of the variation in 1-day retention and 7.8% in 7-day retention. The remaining parts is influenced by other factors not included in the testing.
+#### F-statistic: 1834 and 3820
+The models is statistically significant, meaning at least one independent variable has a meaningful impact on 1-day 7-day retention.
+### Coefficients and Interpretation (1-day 7-day):
+#### const: 0.4218 and 0.161
+If all independent variables are zero, the probability of a player returning on day 1 is 42,18% and  day 7 is 16.1%.
+#### version: -0.0053, p-value: 0.101 and -0.0076, p-value: 0.002
+Moving the gate from level 30 to 40 reduces the 1-day retention probability by 0.53%, though the result is not statistically significant (p > 0.05), but for the 7-day it reduces by 0.76%, which is statistically significant (p < 0.05).
+#### sum_gamerounds: 0.0005 and 0.0006
+Each additional game round increases the probability of returning by 0.05% on 1-day and by 0.06% on 7-day. This effect is highly significant, indicating that player activity positively impacts short-term and long-term retention.
+### Model Diagnostics:
+#### Omnibus: 50196.015 and 78019.664
+Residuals are not normally distributed, which may affect result reliability.
+
+### Conclusions:
+#### Gate Change (version):
+The impact of moving the gate is not statistically significant for 1-day, other strategies should be explored to enhance short-term retention. But it negatively impacts 7-day retention, reducing it by 0.76%. Since the effect is pretty big, this suggests the change may hurt long-term player engagement.
+#### Player Activity (sum_gamerounds):
+Efforts should focus on increasing player activity, as it significantly improves the likelihood of players returning the next day ang week.
+### Recommendations:
+Since the impact of moving the gate is not statistically significant, other strategies should be explored to enhance short-term retention. Focus on increasing player involvement with other features like daily award or game challenges can give more profits than gate changing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
